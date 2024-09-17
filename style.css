@@ -307,10 +307,10 @@ section {
 }
 
 .details-container {
-    padding: 0.5rem;
+    padding: 1.5rem;
     flex: 1;
     background: white;
-    border-radius: 2.5rem;
+    border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
     border-color: #ef233c;
     text-align: center;
@@ -346,4 +346,10 @@ section {
     font-weight: 600;
     font-style: italic;
     color: #3B719F;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
